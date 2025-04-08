@@ -1,4 +1,4 @@
-df <- read.table("jia_gwama_sex_diff_chr6.gwama.out", header = TRUE, sep = "\t")
+df <- read.table("example.out", header = TRUE, sep = "\t")
 #modify the colnames for P to use with qqman Manhattan Plot (Which P?)
 colnames(df) <- c("Chromosome",	
                   "Position",	
